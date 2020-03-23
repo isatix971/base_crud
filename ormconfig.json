@@ -1,0 +1,12 @@
+{
+  "name":"default",
+  "type": "postgres",
+  "host": "localhost",
+  "port": 5432,
+  "username": "tarsius",
+  "password": "tarsiusl123",
+  "schema": "tarsius_live",
+  "database": "postgres",
+  "entities": ["./src/models/*.ts"],
+  "synchronize": true
+}
